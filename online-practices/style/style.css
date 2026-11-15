@@ -1,0 +1,38 @@
+body {
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.profile-card {
+    background-color: white;
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 16px;
+    padding: 12px;
+    /* we will talk about this prop in next session */
+}
+
+#name {
+    color: #222;
+    font-size: 24px;
+}
+
+.job-title {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.description {
+    color: #666;
+    font-size: 14px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border-radius: 8px;
+}

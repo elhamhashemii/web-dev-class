@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Class</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        div {
+            display: inline-block;
+        }
+
+        #block-div {
+            width: 80px;
+            height: 80px;
+            background-color: coral;
+        }
+
+        .test {
+            background-color: chartreuse;
+            position: sticky;
+            left: 200px;
+            bottom: 5px;
+        }
+
+        button {
+            display: inline-block;
+            width: 120px;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .parent {
+            position: relative;
+        }
+
+        .child {
+            background-color: red;
+            position: absolute;
+        }
+
+        #welcome {
+            background-color: red;
+            border-radius: 8px;
+            /* display: none; */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Semantic HTML -->
+    <header>
+        <h1 class="test">My Website</h1>
+        <button>Click Me</button>
+        <button>Click me twice</button>
+        <button>Click me AGAIN</button>
+        <nav>
+            <ul class="parent">
+                <li class="child">Home</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 id="welcome">Welcome to my website</h2>
+        <p id="pink-text">This is a website about me</p>
+
+        <section>
+            <h3>About Me</h3>
+            <p>I am a web developer</p>
+        </section>
+
+        <section>
+            <h3>My Projects</h3>
+            <p>I have no projects</p>
+        </section>
+
+
+        <article>
+            <h3>How to learn HTML</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+        </article>
+    </main>
+
+    <footer></footer>
+</body>
+
+</html>
