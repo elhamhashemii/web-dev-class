@@ -1,0 +1,110 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.header p {
+    color: #777;
+}
+
+/* Products Container */
+.products {
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Product Card */
+.product-card {
+    display: inline-block;
+    vertical-align: top;
+
+    width: 300px;
+    max-width: 100%;
+
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+
+    border: 1px solid #ddd;
+    border-radius: 12px;
+
+    text-align: left;
+    position: relative;
+}
+
+/* Product Image */
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Product Information */
+.product-card h2 {
+    font-size: 20px;
+    margin: 15px 0 10px;
+    color: #222;
+}
+
+.product-card p {
+    color: #777;
+    line-height: 1.6;
+    font-size: 14px;
+    min-height: 45px;
+}
+
+.price {
+    display: block;
+    color: #15966b;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+/* Button */
+.product-card button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+
+    background-color: #15966b;
+    color: white;
+
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Discount Badge */
+.discount {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+
+    background-color: #ff6464;
+    color: white;
+
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
